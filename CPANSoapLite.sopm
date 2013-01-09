@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <Name>CPANSOAPLite</Name>
+    <Version>0.715</Version>
+    <Framework>2.3.x</Framework>
+    <Framework>2.4.x</Framework>
+    <Framework>3.0.x</Framework>
+    <Vendor>CPAN</Vendor>
+    <ModuleRequired>Class::Inspector</ModuleRequired>
+    <URL>https://www.metacpan.org/module/SOAP::Lite</URL>
+    <License>GNU GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Description Lang="en">Provides SOAP::Lite module packaged for OTRS from CPAN.</Description>
+    <Filelist>
+        <File Permission="644" Location="Kernel/cpan-lib/SOAP/Constants.pm"/>
+        <File Permission="644" Location="Kernel/cpan-lib/SOAP/Lite.pm"/>
+        <File Permission="644" Location="Kernel/cpan-lib/SOAP/Lite/Deserializer/XMLSchema1999.pm"/>
+        <File Permission="644" Location="Kernel/cpan-lib/SOAP/Lite/Deserializer/XMLSchema2001.pm"/>
+        <File Permission="644" Location="Kernel/cpan-lib/SOAP/Lite/Deserializer/XMLSchemaSOAP1_1.pm"/>
+        <File Permission="644" Location="Kernel/cpan-lib/SOAP/Lite/Deserializer/XMLSchemaSOAP1_2.pm"/>
+        <File Permission="644" Location="Kernel/cpan-lib/SOAP/Lite/Packager.pm"/>
+        <File Permission="644" Location="Kernel/cpan-lib/SOAP/Lite/Utils.pm"/>
+        <File Permission="644" Location="Kernel/cpan-lib/SOAP/Packager.pm"/>
+        <File Permission="644" Location="Kernel/cpan-lib/SOAP/Transport/HTTP.pm"/>
+    </Filelist>
+</otrs_package>
